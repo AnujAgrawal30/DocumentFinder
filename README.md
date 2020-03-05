@@ -9,13 +9,18 @@
 ### Once you have python 3 installed and added to your path, follow these steps to Install the software:
 - Clone the repository into the computer
 - Go To Folder named "DocumentFinder"
-- Double-click "setup.bat" and let it install the software. If at the end you did not find "Installation Successful", Please check again if python 3 is installed and added to Environment Variables and try again.
+- Right-click "setup.bat" and choose "Run as administrator" and let it install the software. This will take several minutes to run. If at the end you did not find "Installation Successful", Please check again if python 3 is installed and added to Environment Variables and try again.
 - Now to launch the application, double-click "launcher.bat". It should open the project for you. Wait a few seconds after it opens to let the server start properly before performing any actions.
 ## For Linux/MacOS
 ### Before installing the project. Make sure you have python 3 instlled and added to your path
 - Clone the repository into th computer
 - Install pip and virtualenv if not already installed using instructions provided [here](https://www.codingforentrepreneurs.com/blog/install-django-on-mac-or-linux)
 - Open terminal inside the "DocumentFinder" Folder and activate the virtual environment
-- Install required libraries using `pip install -r requirements.txt`
+- Install required libraries using `sudo pip install -r requirements.txt`
 - start the server using `python manage.py runserver`
 - launch the web-app by double-clicking website/index.html
+
+### To Clear Previous models pre-installed for testing, Please follow these steps:
+Note: After clearing the data, the Search files interface will not provide any data
+- Delete all models present in the models folder, but not the folder itself.
+- Open terminal in the folder and type `python manage.py flush`. It will prompt for a confirmation, type `yes` and press Enter
