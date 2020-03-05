@@ -1,4 +1,4 @@
-## This project has been developed as a part of the Infieon AI Challenge. Please go through the following installation manual to get started with the app.
+## This project has been developed as a part of the Infineon AI Challenge. Please go through the following installation manual to get started with the app.
 # Installation Manual
 ## For Windows:
 ### The project requires the user to have Python 3 installed in their systems and added to their path with name as python. To check if your system has this setting Follow these steps:
