@@ -1,3 +1,5 @@
+@setlocal enableextensions
+@cd /d "%~dp0"
 python get-pip.py || goto :error
 python -m pip install --user virtualenv || goto :error
 python -m venv documentenv || goto :error
