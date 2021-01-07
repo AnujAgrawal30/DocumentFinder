@@ -12,7 +12,7 @@ docx==0.2.4
 gensim==3.8.1
 idna==2.9
 jmespath==0.9.5
-lxml==4.5.0
+lxml==4.6.2
 nltk==3.4.5
 numpy==1.18.1
 pdfminer==20191125
